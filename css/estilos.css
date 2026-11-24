@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  --crema: #f7f2ec;
+  --tinta: #1c1a1a;
+  --vino: #8c2f48;
+  --rosa: #f1dcd8;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: var(--crema);
+  color: var(--tinta);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.lead {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--vino);
+}
+
+
+header {
+  background-color: var(--rosa);
+  border-bottom: 3px solid var(--vino);
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--vino);
+}
+
+.btn-contorno {
+  border: 2px solid var(--tinta);
+  color: var(--tinta);
+  transition: all 0.4s ease;
+}
+
+.btn-contorno:hover {
+  background-color: var(--tinta);
+  color: var(--crema);
+}
+
+
+.btn-dark {
+  background-color: var(--tinta);
+  border-color: var(--tinta);
+  border-radius: 0;
+  transition: all 0.4s ease;
+}
+
+.btn-dark:hover {
+  background-color: var(--vino);
+  border-color: var(--vino);
+  color: white;
+  transform: translate(8px);
+}
+
+
+.card {
+  border-radius: 0;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.card-text {
+  font-weight: 300;
+}
+
+.card-footer {
+  font-size: 0.85rem;
+  background-color: var(--crema);
+}
+
+.etiqueta-pais {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  color: white;
+  background-color: var(--vino);
+}
+
+
+.anio {
+  width: 6rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--vino);
+}
+
+.hito {
+  border-bottom: 1px solid var(--tinta);
+  transition: background-color 0.4s ease;
+}
+
+.hito:hover {
+  background-color: var(--rosa);
+}
+
+
+#taller img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 1.5s ease;
+}
+
+#taller img:hover {
+  transform: rotate(-3deg);
+  opacity: 0.85;
+}
+
+
+footer {
+  background-color: var(--tinta);
+  color: var(--crema);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: var(--crema);
+}
+
+footer a:hover {
+  color: var(--rosa);
+}

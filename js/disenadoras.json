@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Coco Chanel",
+    "pais": "Francia",
+    "rol": "Diseñadora",
+    "nacimiento": 1883,
+    "descripcion": "Abrió su primera tienda de sombreros en París en 1910 y cambió el vestuario femenino con el jersey, el traje de tweed y el pequeño vestido negro. Su perfume Chanel Nº 5 salió en 1921.",
+    "imagen": "img/coco-chanel.jpg",
+    "destino": "https://es.wikipedia.org/wiki/Coco_Chanel"
+  },
+  {
+    "nombre": "Vivienne Westwood",
+    "pais": "Reino Unido",
+    "rol": "Diseñadora",
+    "nacimiento": 1941,
+    "descripcion": "Llevó el punk a la moda desde su tienda de Londres en los años 70. Mezcló tartán, corsés y cortes históricos, y usó sus desfiles para hablar de política y de cambio climático. Murió en 2022.",
+    "imagen": "img/vivienne-westwood.jpg",
+    "destino": "https://es.wikipedia.org/wiki/Vivienne_Westwood"
+  },
+  {
+    "nombre": "Stella McCartney",
+    "pais": "Reino Unido",
+    "rol": "Diseñadora",
+    "nacimiento": 1971,
+    "descripcion": "Lanzó su propia marca en 2001 y es pionera de la moda sin cuero ni piel animal. Su propuesta une sastrería elegante con materiales más sustentables.",
+    "imagen": "img/stella-mccartney.jpg",
+    "destino": "https://es.wikipedia.org/wiki/Stella_McCartney"
+  },
+  
+  {
+    "nombre": "Miuccia Prada",
+    "pais": "Italia",
+    "rol": "Diseñadora",
+    "nacimiento": 1949,
+    "descripcion": "Heredó la casa Prada en 1978 y creó la línea Miu Miu en 1993. Es famosa por mezclar materiales simples, como el nylon, con lujo y por sus ideas poco convencionales.",
+    "imagen": "img/miuccia-prada.jpg",
+    "destino": "https://es.wikipedia.org/wiki/Miuccia_Prada"
+  },
+  {
+    "nombre": "Rei Kawakubo",
+    "pais": "Japón",
+    "rol": "Diseñadora",
+    "nacimiento": 1942,
+    "descripcion": "Fundó Comme des Garçons en Tokio en 1969 y desfila en París desde 1981. Rompió las reglas de la silueta con prendas negras, asimétricas y casi esculturales.",
+    "imagen": "img/rei-kawakubo.jpg",
+    "destino": "https://es.wikipedia.org/wiki/Rei_Kawakubo"
+  },
+  {
+    "nombre": "Carolina Herrera",
+    "pais": "Venezuela",
+    "rol": "Diseñadora",
+    "nacimiento": 1939,
+    "descripcion": "Nacida en Caracas, lanzó su casa en Nueva York en 1981. Su estilo combina elegancia clásica, camisas blancas y vestidos de gala que vistieron a primeras damas y estrellas.",
+    "imagen": "img/carolina-herrera.jpg",
+    "destino": "https://es.wikipedia.org/wiki/Carolina_Herrera"
+  }
+]
